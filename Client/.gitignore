@@ -7,9 +7,19 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependencias
+node_modules/
+dist/
+dist-ssr/
+
+# Archivos de entorno
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+
+# Archivos de configuración local
 *.local
 
 # Editor directories and files
@@ -22,3 +32,16 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Archivos de construcción
+build/
+out/
+.next/
+
+# Cache
+.cache/
+.temp/
+
+# Sistema
+Thumbs.db
+ehthumbs
